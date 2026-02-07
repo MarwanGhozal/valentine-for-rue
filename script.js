@@ -105,7 +105,7 @@ setInterval(() => {
 }, 1000);
 
 /* ================= SLIDESHOW ================= */
-const photos = ["photo1.jpg", "photo2.jpg", "photo3.jpg"];
+const photos = ["photo1.jpg", "photo1.jpg", "photo1.jpg"];
 let idx = 0;
 
 setInterval(() => {
