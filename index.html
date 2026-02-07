@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Rue ❤️ Marwan</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- background music -->
+    <audio id="bgMusic" src="music.mp3" loop></audio>
+
+    <div id="emojiRain"></div>
+    <div id="noMessage"></div>
+
+    <!-- ================= MAIN ================= -->
+    <div class="screen active" id="mainScreen">
+      <div class="card">
+        <img src="photo1.jpg" class="couple-img" />
+
+        <h1 class="title">
+          Heyy Ruee ❤️<br />
+          <span class="marwan">Marwan</span> has a question for you!
+        </h1>
+
+        <div class="subtitle-box">Will you be my Valentine 🌹?</div>
+
+        <div class="buttons">
+          <button id="yesBtn" class="btn yes">💘 YES ❤️</button>
+          <button id="noBtn" class="btn no">🙄 No</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= YES SCREEN ================= -->
+    <div class="screen" id="yesScreen">
+      <div class="card success">
+        <h1 class="yay">Yesss 😍</h1>
+
+        <div id="countdown"></div>
+
+        <div class="date-card">
+          📅 Thursday 12 Feb 2026<br />
+          ⏰ 7:30 PM<br />
+          📍 Cucina – JW Marriott Hotel Cairo
+        </div>
+
+        <div class="slideshow">
+          <img id="slideImg" src="photo1.jpg" />
+        </div>
+
+        <p class="message">
+          est3edy b2a… I'm taking out the prettiest girl fel donya 😏❤️
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
